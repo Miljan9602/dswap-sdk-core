@@ -24,5 +24,5 @@ export const WETH9: { [chainId: number]: Token } = {
   [56]: new Token(56, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
   [137]: new Token(137, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WMATIC', 'Wrapped MATIC'),
   [43114]: new Token(43114, '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7', 18, 'WAVAX', 'Wrapped AVAX'),
-  [ChainId.SEI_MAINNET]: new Token(ChainId.SEI_MAINNET, '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7', 18, 'WSEI', 'Wrapped SEI')
+  [ChainId.SEI_MAINNET]: new Token(ChainId.SEI_MAINNET, '0x027D2E627209f1cebA52ADc8A5aFE9318459b44B', 18, 'WSEI', 'Wrapped SEI')
 }
