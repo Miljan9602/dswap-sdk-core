@@ -13,7 +13,7 @@ type ChainAddresses = {
   v1MixedRouteQuoterAddress?: string
 }
 
-const DEFAULT_NETWORKS = [ChainId.MAINNET, ChainId.GOERLI, ChainId.SEPOLIA]
+const DEFAULT_NETWORKS = [ChainId.SEI_MAINNET]
 
 function constructSameAddressMap(address: string, additionalNetworks: ChainId[] = []): AddressMap {
   return DEFAULT_NETWORKS.concat(additionalNetworks).reduce<AddressMap>((memo, chainId) => {
@@ -69,11 +69,11 @@ export const V2_ROUTER_ADDRESSES: AddressMap = {
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
 const DEFAULT_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x12437643B9c943201407695409386c264516c0BC',
-  multicallAddress: '0x9DD1c16692dFF9e6DaBE157b5617e18Dae718C1b',
-  quoterAddress: '0x38A60FaC6EA7e3be9eb96E55945c576E7c31dbe9',
-  v3MigratorAddress: '0xd93F3C3dC68C018A345EB6C58bcF5Ae912BeCA8f',
-  nonfungiblePositionManagerAddress: '0xE7AE23730d8BCB24339227f276377ad7D0978dC8'
+  v3CoreFactoryAddress: '0x0bcea088e977a03113a880cF7c5b6165D8304B16',
+  multicallAddress: '0xf1DC77C0714ceCd722028DFfC18A5A50EFe9d2ba',
+  quoterAddress: '0x58F738F3A2B4e9e0217f948eF07324d15eBF0b9a',
+  v3MigratorAddress: '0xB46ba7778500821B40213F1967f9A75747C2FdFe',
+  nonfungiblePositionManagerAddress: '0xCB796653533a4C0982D7C698932e2008A32209AA'
 }
 
 const SEI_MAINNET_ADDRESSES: ChainAddresses = {
