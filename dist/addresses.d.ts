@@ -17,12 +17,12 @@ export declare const UNISWAP_NFT_AIRDROP_CLAIM_ADDRESS = "0x8B799381ac40b838BBA4
 /**
  * @deprecated use V2_FACTORY_ADDRESSES instead
  */
-export declare const V2_FACTORY_ADDRESS = "0x5D370a6189F89603FaB67e9C68383e63F7B6A262";
+export declare const V2_FACTORY_ADDRESS = "0x71f6b49ae1558357bBb5A6074f1143c46cBcA03d";
 export declare const V2_FACTORY_ADDRESSES: AddressMap;
 /**
  * @deprecated use V2_ROUTER_ADDRESSES instead
  */
-export declare const V2_ROUTER_ADDRESS = "0x2346d3A6fb18Ff3ae590Ea31d9e41E6AB8c9f5EB";
+export declare const V2_ROUTER_ADDRESS = "0xB5C7953Ffe8c1C9cCCa0203eb15124dacD799ed1";
 export declare const V2_ROUTER_ADDRESSES: AddressMap;
 export declare const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>;
 export declare const V3_CORE_FACTORY_ADDRESSES: AddressMap;
