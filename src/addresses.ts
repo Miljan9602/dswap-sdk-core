@@ -367,7 +367,7 @@ export const MIXED_ROUTE_QUOTER_V1_ADDRESSES: AddressMap = SUPPORTED_CHAINS.redu
 export const SWAP_ROUTER_02_ADDRESSES = (chainId: number) => {
   if (SUPPORTED_CHAINS.includes(chainId)) {
     const id = chainId as SupportedChainsType
-    return CHAIN_TO_ADDRESSES_MAP[id].swapRouter02Address ?? '0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45'
+    return CHAIN_TO_ADDRESSES_MAP[id].swapRouter02Address ?? '0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428'
   }
   return ''
 }

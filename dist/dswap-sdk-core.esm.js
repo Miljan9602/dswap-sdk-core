@@ -329,7 +329,7 @@ var SWAP_ROUTER_02_ADDRESSES = function SWAP_ROUTER_02_ADDRESSES(chainId) {
   if (SUPPORTED_CHAINS.includes(chainId)) {
     var _CHAIN_TO_ADDRESSES_M2;
     var id = chainId;
-    return (_CHAIN_TO_ADDRESSES_M2 = CHAIN_TO_ADDRESSES_MAP[id].swapRouter02Address) != null ? _CHAIN_TO_ADDRESSES_M2 : '0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45';
+    return (_CHAIN_TO_ADDRESSES_M2 = CHAIN_TO_ADDRESSES_MAP[id].swapRouter02Address) != null ? _CHAIN_TO_ADDRESSES_M2 : '0x11DA6463D6Cb5a03411Dbf5ab6f6bc3997Ac7428';
   }
   return '';
 };
